@@ -8,7 +8,7 @@ const roleName = [              // Имена ролей
   'имя роли'
 ]
 
-const speed = 4000              // Скокость смены цвета
+const speed = 4000              // Скорость смены цвета
 const logging = true            // Логин бота по токену
 
 /* КОНФИГ БОТА */
@@ -18,12 +18,12 @@ const logging = true            // Логин бота по токену
 const typestatus = 'dnd'        // Тип статуса бота
                                  /* online - В сети
                                     dnd - Не беспокоить
-						            idle - Нет на месте */
+                                    idle - Нет на месте */
 const typeactivity = 'WATCHING' // Вид активности бота
                                  /* WATCHING - Смотрит
                                     LISTENING - Слушает
                                     PLAYING - Играет
-								    STREAMING - Стримит */
+                                    STREAMING - Стримит */
 
 let statuses = [
 //  'статус',
